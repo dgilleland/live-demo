@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest';
-import { add } from ''
+import { add } from '../src/about.js';
+
 describe('About this test suite', () => {
     it('should pass', () => {
         expect(true).toBe(true);
